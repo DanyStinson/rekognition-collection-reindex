@@ -1,6 +1,14 @@
 # Amazon Rekognition Face Collection ReIndexing Solution
 
-## Getting Started
+The idea behind this solution is to allow customers to migrate their Amazon Rekognition face collections to the newest FaceModelVersion available. 
+
+The solution is already packaged into an Amazon CloudFormation template. AWS CloudFormation is a service that helps you model and set up your AWS resources so that you can spend less time managing those resources and more time focusing on your applications that run in AWS. You only have to worry about providing your existing data in the correct format. 
+
+### Solution Architecture
+
+![Architecture](images/architecture.png)
+
+## Solution Deployment
 
 ### Configure your Amazon SageMaker Studio Environment
 To configure and deploy the solution we have created a Jupyter Notebook containing all the needed steps. Amazon Sagemaker
